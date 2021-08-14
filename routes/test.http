@@ -1,0 +1,13 @@
+get http://localhost:7000/posts
+
+
+###
+
+post http://localhost:7000/posts
+content-type: application/json
+
+{
+    "title": "sample",
+    "message": "Wed, 21 Oct 2015 18:27:50 GMT",
+    img_url: ""
+}
